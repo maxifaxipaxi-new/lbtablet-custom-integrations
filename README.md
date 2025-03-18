@@ -1,5 +1,7 @@
 # LB-Tablet - Custom Integrations
 Integrate Housing or other Custom Scripts into LB-Tablet as a community together!
+Lets enhance the LB-Tablet together!
+Script from https://lbscripts.com/tablet.
 
 # CUSTOM HOUSING SCRIPTS
 # QS-Housing Integration:
