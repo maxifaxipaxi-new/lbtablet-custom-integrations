@@ -1,5 +1,18 @@
 # myPrison Integration (Need to edit in myPrison!)
 
+Currently Working:
+- Get inmates by jail-tab
+- See all data provided by jailing via myPrison menu
+
+Current Issues:
+- none
+
+Missing Features:
+- Jail a player via Tablet
+- Unjail a player via Tablet
+
+## required changes
+
 myPrsion/server.lua
 Change:
 ```
