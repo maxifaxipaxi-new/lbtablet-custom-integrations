@@ -34,22 +34,22 @@ function dispatchNotify()
 
     local hours, minutes, seconds = GetClockHours(), GetClockMinutes(), GetClockSeconds()
     local gameTime = string.format("%02d:%02d:%02d", hours, minutes, seconds)
-    local playerSex = "Geschlecht Unbekannt"
+    local playerSex = "Unknown"
     
     local policeDispatch = {
             priority = 'high',
             code = '10-87',
-            title = 'ATM Fehlfunktion',
-            description = 'Eine Person ('..playerSex..') macht sicht an einem Geldautomaten bei '..streetName..' zuschaffen.',
+            title = 'ATM Issues',
+            description = 'A person ('..playerSex..') is causing alarm at the atm next to '..streetName,
             location = {
-                label = 'Medizinischer Notruf',
+                label = 'ATM Issues',
                 coords = { x = myPos.x, y = myPos.y }
             },
             time = 300,
             job = 'police',
             fields = {
-                { icon = 'map-marker', label = 'Ort', value = streetName },
-                { icon = 'clock', label = 'Uhrzeit', value = gameTime }
+                { icon = 'map-marker', label = 'Location', value = streetName },
+                { icon = 'clock', label = 'Time', value = gameTime }
             }
         }
         
